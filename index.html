@@ -4,54 +4,33 @@
 
 <!DOCTYPE html>
 <html>
-<head><style>
-body {background-color: whitesmoke;}
-h1   {color: brown;}
-p    {color: purple;}
-</style>
+<head>
+    <title>Cafe Menu - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <title>Cafe Menu</title>
-    </head>
-    <body>
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">About & Contact</a>
+    </nav>
+
+    <div class="container">
         <h1>Welcome to our cafe</h1>
         <p>Our cafe is open for customers.</p>
-        
 
-<img src="image.jpg" alt="image" style="width:400px;height:400px;">
-   
- <table>
-    <tr>
-        <th>Number</th>
-        <th>Menu</th>
-        <th>Prices</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>TEA</td>
-        <td>Rs.200</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>COFEE</td>
-        <td>Rs.350</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Biryani</td>
-        <td>Rs.450</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Pizza</td>
-        <td>Rs.500</td>
-    </tr>
-</table>
-<button id="start-button" onclick="orderNow()">
-    Order Now
-</button>
+        <img src="image.jpg" alt="image">
 
-<script>
-function orderNow() {
-    alert("Thank you for ordering from our cafe!");
-}
-</script>
+        <h2>Fresh Food & Warm Drinks</h2>
+        <p>Stop by for a relaxing cup of Tea or Coffee, or enjoy freshly made Biryani and Pizza with friends.</p>
+
+        <a href="menu.html"><button>View Full Menu</button></a>
+    </div>
+
+    <footer>
+        <p>Cafe Menu Website | Open Daily: 9:00 AM - 11:00 PM</p>
+    </footer>
+
+</body>
+</html>
